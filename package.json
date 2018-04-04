@@ -1,5 +1,5 @@
 {
-  "name": "flow-webpack-plugin",
+  "name": "@colehaus/flow-webpack-plugin",
   "version": "1.2.0",
   "description": "A webpack plugin allowing to call Flow type checker during each webpack compilation.",
   "main": "dist/index.js",

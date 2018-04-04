@@ -288,7 +288,7 @@ function applyOptionsDefaults(optionalOptions: OptionalOptions): Options {
         failOnErrorWatch: false,
         reportingSeverity: 'error',
         printFlowOutput: true,
-        flowPath: getLocalFlowPath(),
+        flowPath: optionalOptions.flowPath || getLocalFlowPath(),
         flowArgs: getDefaultFlowArgs(),
         verbose: false,
         callback: NOOP
